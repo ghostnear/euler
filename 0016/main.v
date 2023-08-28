@@ -1,5 +1,4 @@
-fn multiply_by_2(mut self []int)
-{
+fn multiply_by_2(mut self []int) {
 	// Assumes the format is reversed digits.
 	mut transport := 0
 	for index := 0; index < self.len; index++ {
@@ -12,8 +11,7 @@ fn multiply_by_2(mut self []int)
 	}
 }
 
-fn main()
-{
+fn main() {
 	mut result := [1]
 	for index := 0; index < 1000; index++ {
 		multiply_by_2(mut result)

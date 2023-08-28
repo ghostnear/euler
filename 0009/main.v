@@ -7,6 +7,6 @@ fn main() {
 				println(a * b * int(c))
 				return
 			}
-		}  
+		}
 	}
 }

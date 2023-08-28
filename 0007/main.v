@@ -8,6 +8,7 @@ fn main() {
 		for prime in primes {
 			if index % prime == 0 {
 				found = false
+				break
 			}
 		}
 		if found {
