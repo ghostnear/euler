@@ -7,8 +7,7 @@ fn count_numbers(cn u64) int {
 	for n != 1 {
 		if n % 2 == 0 {
 			n /= 2
-		}
-		else {
+		} else {
 			n = 3 * n + 1
 		}
 		count++
@@ -29,5 +28,5 @@ fn main() {
 		}
 	}
 
-	println("${number}")
+	println('${number}')
 }
