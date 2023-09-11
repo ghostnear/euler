@@ -1,6 +1,3 @@
-import os
-import math
-
 def fast_pow(a: int, b:int) -> int:
     if b == 1:
         return a
